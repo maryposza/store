@@ -1,0 +1,47 @@
+{
+  "name": "La Maison Sucrée",
+  "short_name": "Maison Sucrée",
+  "description": "Postres artesanales y tortas a medida en Venezuela",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf8f5",
+  "theme_color": "#111827",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/1638dkDB22wJTfHUy-9Jgp9YS-l0jbb7j",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/1ahbsD-Et72fZH8eHgUBJEGhjLNqbpndI",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/1k8j-GcOzdn-ikyGXEB2_DobNRmfEPTht",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/d/1L7UwszEKkxYl6Fm9nsUtm9WNZ8Jrr_Am",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/1k8j-GcOzdn-ikyGXEB2_DobNRmfEPTht",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["food", "shopping"]
+}
