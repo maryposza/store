@@ -14,7 +14,7 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 // URL del Cloudflare Worker (backend seguro)
 // Se obtiene después del deploy: wrangler deploy worker/worker.js --name postres-worker
 // Formato: https://postres-worker.TU_SUBDOMAIN.workers.dev
-const WORKER_URL = 'https://worker.marypostresza.workers.dev/';
+const WORKER_URL = 'https://postres-worker.marypostresza.workers.dev';
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
